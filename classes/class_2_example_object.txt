@@ -1,0 +1,13 @@
+object = Server Station 2
+attributes:
+pos_functional: true
+servers_active: ["Tim","Eric","Alex"]
+money_available_for_change: 250.25
+has_clean_silverware: false
+methods:
+request_pos_maintenance: pos_functional= false
+clock_out_server: ["Tim","Eric"]
+clock_in_server: ["Tim","Eric","Alex","Amanda"]
+remove_money_from_till: money_available_for_change= 200.25
+add_money_to_till: money_available_for_change= 300.25
+clean_silverware: has_clean_silverware= true
