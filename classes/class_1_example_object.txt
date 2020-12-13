@@ -1,0 +1,11 @@
+object: Table Chairs
+attributes:
+is_dirty: true
+type_of_legs: "Rolling legs"
+number_in_restaurant: 50
+seat_color: "Red"
+methods
+clean_chair: is_dirty = false
+change_legs: type_of_legs= "Standing"
+add_chair: number_in_restaurant= 51
+paint_chair_seat: seat_color "Blue"
