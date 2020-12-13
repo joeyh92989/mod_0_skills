@@ -4,7 +4,7 @@ is_dirty: true
 type_of_legs: "Rolling legs"
 number_in_restaurant: 50
 seat_color: "Red"
-methods
+methods:
 clean_chair: is_dirty = false
 change_legs: type_of_legs= "Standing"
 add_chair: number_in_restaurant= 51
