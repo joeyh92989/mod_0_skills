@@ -1,0 +1,9 @@
+food= "pizza"
+is_delicous= true
+food= "pie"
+num2= 3
+num7= 15
+quotient= 5
+songs =["batman theme","star wars theme","community theme"]
+songs.slice!(0)
+food.length
