@@ -1,0 +1,11 @@
+class : Chair
+attributes:
+is_dirty (boolean)
+type_of_legs (string)
+number_in_restaurant (integer)
+seat_color (string)
+methods:
+clean_chair: (change is_dirty value)
+change_legs: (changes type_of_legs string)
+add_chair: (increases number_in_restaurant by 1)
+paint_chair_seat: (changes seat_color string)
